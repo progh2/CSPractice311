@@ -21,6 +21,10 @@ namespace CSPractice1
              */
             /*** XML 주석 ***/
 
+
+            // #1 12-2. 출력 
+            Console.WriteLine("Hello World");
+            Console.Write("줄바꿈 싫어");
         }
     }
 }
