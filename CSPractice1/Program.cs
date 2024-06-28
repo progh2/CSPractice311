@@ -142,6 +142,22 @@ namespace CSPractice1
             {
                 Console.WriteLine(item);
             }
+
+            // #4 21-2 클래스 사용
+            Random random = new Random();
+            Console.WriteLine(random.Next(1, 7));
+            Console.WriteLine(random.Next(1, 7));
+            Console.WriteLine(random.Next(1, 7));
+            Console.WriteLine(random.Next(1, 7));
+            Console.WriteLine(random.Next(1, 7));
+
+            Console.WriteLine(Math.Abs(-9));// 9
+            Console.WriteLine(Math.Ceiling(42.3)); // 43
+            Console.WriteLine(Math.Floor(42.9)); // 42
+            Console.WriteLine(Math.Round(42.6)); // 43
+            Console.WriteLine(Math.Min(42, 1));  // 1
+            Console.WriteLine(Math.Max(42, 1));  // 42
+            Console.WriteLine(Math.PI); // 3.141592~~
         }
     }
 }
