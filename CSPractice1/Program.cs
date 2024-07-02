@@ -293,6 +293,27 @@ namespace CSPractice1
             Change(test);
             Console.WriteLine(test.value); //  20 
 
+            // #6 23-4. is키워드( + as 키워드)
+            List<Animal> animals = new List<Animal>() {
+                new Dog(), new Cat(), new Dog(), new Cat(), new Cat(),
+            };
+            foreach(var item in animals)
+            {
+                item.Eat();
+                item.Sleep();
+                if( item is Cat )
+                {
+                    ((Cat)item).Meow();
+                }
+                else if(item is Dog)
+                {
+                    var dog = item as Dog; 
+                    if(dog != null ) { dog.Bark(); }
+                }
+            }
+
+
+
         }
     }
 }
